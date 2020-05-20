@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+#gameScreen {
+  border: 1px solid white;
+}
+.img {
+  width: 50px;
+  display: none;
+}
+.player_name {
+  position: absolute;
+  left: 100px;
+  top: 300px;
+  width: 600px;
+  padding: 20px;
+  display: none;
+}
+.btn {
+  position: absolute;
+  font-size: larger;
+  display: none;
+  right: 340px;
+  bottom: 100px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 5px solid black;
+}
+.img_arrowRight {
+  position: absolute;
+  left: 50vw;
+  transform: rotate(180deg);
+  bottom: 0;
+  display: none;
+}
+.img_arrowLeft {
+  position: absolute;
+  width: 100px;
+  bottom: 0px;
+  right: 50vw;
+  display: none;
+}
